@@ -8,8 +8,8 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <title>Gerencia Industrial · CMP</title>
   <meta name="description" content="Tablero de indicadores de Gerencia Industrial · Cerámica Marcos Paz · Planta Cevil">
-  <link rel="icon" href="img/logo-cmp.png">
-  <link rel="apple-touch-icon" href="img/logo-cmp.png">
+  <link rel="icon" href="logo-cmp.png">
+  <link rel="apple-touch-icon" href="logo-cmp.png">
   <link rel="preconnect" href="https://script.google.com">
   <link rel="preconnect" href="https://script.googleusercontent.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,10 +29,10 @@
 </head>
 <body>
   <div id="splash">
-    <span class="logo-tile"><img src="img/logo-cmp.png" alt=""></span>
+    <span class="logo-tile"><img src="logo-cmp.png" alt=""></span>
     <div class="splash-emp">Grupo MP · Cerámica Marcos Paz</div>
     <h2>Gerencia Industrial</h2>
-    <div class="splash-pasos" aria-hidden="true"><span>🏭</span><span>🔥</span><span>⚙️</span><span>🛠️</span><span>🚚</span></div>
+    <div class="splash-pasos" id="splashPasos" aria-hidden="true"></div>
     <div class="barra" id="splashBarra"><span></span></div>
     <p id="splashTxt">Conectando con las bases de datos…</p>
   </div>
@@ -40,7 +40,7 @@
 
   <header class="top">
     <a class="brand" href="#/">
-      <span class="logo-tile"><img src="img/logo-cmp.png" alt=""></span>
+      <span class="logo-tile"><img src="logo-cmp.png" alt=""></span>
       <div>Gerencia Industrial<small id="brandPlanta">Cerámica Marcos Paz · Planta Cevil</small></div>
     </a>
     <nav class="nav" id="nav" aria-label="Secciones"></nav>
@@ -59,6 +59,6 @@
   <div id="overlay"><div class="ov-caja"><div class="spin"></div><p id="overlayTxt">Guardando…</p></div></div>
 
   <dialog id="dlg"><div class="dlg-cab"><div><div class="eyebrow" id="dlgEyebrow"></div><h2 id="dlgTitulo"></h2></div><button class="btn ghost icon" id="dlgCerrar" aria-label="Cerrar"></button></div><div class="dlg-cuerpo" id="dlgCuerpo"></div></dialog>
-  <dialog id="dlgMini" class="chico"><div class="dlg-cuerpo" id="dlgMiniCuerpo"></div></dialog>
+  <dialog id="dlg2"><div class="dlg-cab"><div><div class="eyebrow" id="dlg2Eyebrow"></div><h2 id="dlg2Titulo"></h2></div><button class="btn ghost icon" id="dlg2Cerrar" aria-label="Cerrar"></button></div><div class="dlg-cuerpo" id="dlg2Cuerpo"></div></dialog>
 </body>
 </html>
